@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:adroid="http://schemas.android.com/apk/res/android"
+    adroid:id="@+id/weatherLayout"
+    adroid:layout_width="match_parent"
+    adroid:layout_height="match_parent"
+    adroid:scrollbars="none"
+    adroid:overScrollMode="never"
+    adroid:visibility="invisible">
+
+    <LinearLayout
+        adroid:orientation="vertical"
+        adroid:layout_width="match_parent"
+        adroid:layout_height="wrap_content">
+
+        <include layout="@layout/now"/>
+
+        <include layout="@layout/forecast"/>
+
+        <include layout="@layout/life_index"/>
+
+    </LinearLayout>
+
+</ScrollView>
